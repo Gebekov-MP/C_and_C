@@ -1,0 +1,102 @@
+\n - нова€ строка
+\r
+\t - tab табул€ци€
+\' - ковычки как текст
+\" - 
+\\
+\0
+
+function
+
+GetChar
+GetDouble
+GetFloat
+GetInt
+GetLongLong
+GetString
+printf
+
+conditions
+
+if (conditions)
+{
+    //do this
+}
+
+if (conditions)
+{
+    //do this
+}
+else if (conditions)
+{
+    //do that
+}
+else
+{
+    //do this other thing
+}
+
+boolean expressions
+
+if (conditions && || conditions)
+{
+    // do this
+}
+
+switches (функционально равнозначные конструкции)- переключатели
+
+switch (expression)
+{
+    case i:
+         // do this;
+         break
+    case j:
+         // do that
+         break;
+    defoult:
+         // do this other thing
+         break;
+}
+
+
+integer overflow
+
+loops
+
+for (initializations; condition; updates)
+{
+    do this again and again
+}
+
+
+while (conditions)
+{
+    //do this again and again
+}
+
+
+do
+{
+    //do this again and again
+}
+while (condition);
+
+
+variables 
+int counter;
+counter = 0;
+
+int counter = 0
+
+
+function
+
+
+string name = GetString();
+printf("hello, %s\n, name");
+
+
+
+
+
+
