@@ -1,10 +1,10 @@
-\n - new line
+﻿\n - new line
 \r
 \t - tab 
 \' - quotation marks in the text
 \" - 
 \\
-\0
+\0 - in memory the end of string (all byts = 0)
 
 function
 
@@ -95,8 +95,8 @@ function
 string name = GetString();
 printf("hello, %s\n, name");
 
+ASCII - 
 
 
-
-
-
+array
+type[name]

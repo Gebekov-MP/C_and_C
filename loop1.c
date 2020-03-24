@@ -2,10 +2,10 @@
 
 int main(void)
 {
-    int i = 0;
-    while (i <= 200)
+    int i = 200;
+    while (i >= 0)
     {
         printf("%i\n", i);
-        i++;
+        i--;
     }
 }
