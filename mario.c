@@ -1,4 +1,7 @@
-// Prints an n-by-n grid of bricks with a loop
+//*
+*Let’s recreate that pyramid in C, albeit in text, using hashes (#) for bricks, a la the below. Each hash is a bit taller than it is *wide, so the pyramid itself is also be taller than it is wide.
+*ascend right-aligned pyramid of blocks, a la the below.
+*//
 
 #include <cs50.h>
 #include <stdio.h>
