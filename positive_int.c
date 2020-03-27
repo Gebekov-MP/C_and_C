@@ -1,5 +1,5 @@
 
-// Get posutuve integer from a user
+// Get positive integer from a user
 #include <cs50.h>
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-//
+// Better design
 #include <stdio.h>
 
 int main(void)

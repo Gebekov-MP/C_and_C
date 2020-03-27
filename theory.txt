@@ -100,3 +100,15 @@ ASCII -
 
 array
 type[name]
+
+command-line arguments
+int main (int argc, string argv[])
+
+cd pset1
+mv mario.c ..
+clang -o hello hello.c - аргументы командной строки
+
+argc - аргумент количества
+argv[] (v - вектор)- аргумент массив строк или масив масивов строк (количество строк в argc)
+
+secret-key cripto
