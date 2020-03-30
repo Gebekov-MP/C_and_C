@@ -6,7 +6,7 @@ int main(void)
     {
         n = get_int("size: ");
     }
-    for (int i = 0; i<n; i++)
+    for (int i = 0;  i < n; i++)
     {
         printf("?");
     }
