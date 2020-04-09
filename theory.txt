@@ -112,3 +112,22 @@ argc - аргумент количества
 argv[] (v - вектор)- аргумент массив строк или масив масивов строк (количество строк в argc)
 
 secret-key cripto
+
+AKGORITHM
+Bubble sorting
+(pseudocode)
+
+Repeat n-1 times
+ For j from 0 to n - 2
+ If j'th and j + 1'th elements out of order
+ Swap them
+
+selection sort
+
+For i from 0 to n-1
+ Find smallest item between i'th item and last item
+ Swap smallest item with i'th item
+
+mergesort
+
+
