@@ -4,13 +4,13 @@
 
 #include <cs50.h>
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
 
 int main(int argc, string argv[])
 {
-    for (int i = 0; i < argc; i++)
+    for (int i = 1, n = argc; i < n; i++)
     {
-        printf("%s ", argv[i]);
+        printf("%c%s ", toupper(argv[i][0]), argv[i]+1);
     }
+    printf("\n");
 }

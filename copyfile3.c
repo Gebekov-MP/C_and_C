@@ -42,10 +42,10 @@ int main(int argc, char **argv)
 {
     if (argc != optind + 2)
     {
-        fprintf(stderr, "Usage: filter [flag] infile outfile\n");
+        fprintf(stderr, "Usage: infile outfile\n");
         return 1;
     }
     
-    file_copy(argv[optind],argv[optind + 1]); //файлы вводим через командную строку
+    file_copy(argv[optind], argv[optind + 1]); //файлы вводим через командную строку
 }
     

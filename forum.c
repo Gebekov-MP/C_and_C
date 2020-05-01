@@ -4,7 +4,7 @@
 
 int main()
 {
-    int i, j, S; 
+    int S; 
     S = 0;
  
     int L[10][10];

@@ -5,7 +5,7 @@
 
 int main(int argc, string argv[])
 {
-    printf("hello, %s\n0", argv[1]);
+    printf("hello, %s\n", argv[1]);
 }
 
 //prompt to command line after compiler this yext ./hello_command_line maria
