@@ -6,6 +6,7 @@ int main(void)
 {
     float dollars = 0;
     int numbers = 0; int summ = 0; int coins = 0;  //number of coins; summ of coins and coins
+    int n = 0;
     do
     {
         dollars = get_float("Changes owed: ");
@@ -26,6 +27,6 @@ int main(void)
         coins = coins % 1;
         summ += numbers;
     }
-    while (dollars < 0 || coins != 0);
+    while (dollars < 0 || coins > 0);
     printf("%i\n", summ);
 }

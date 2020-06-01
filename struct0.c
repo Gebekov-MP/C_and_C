@@ -9,14 +9,14 @@
 
 int main(void)
 {
-    student students[STUDENTS]
+    student students[STUDENTS];
     for (int i =0; i < STUDENTS; i++)
     {
-        students[i].name = get_string("Students name: ")
-        students[i].dorm = get_string("Students dorm: ")
+        students[i].name = get_string("Students name: ");
+        students[i].dorm = get_string("Students dorm: ");
     }
     
-    FILE* file = fopen("students.csv", "w")
+    FILE* file = fopen("students.csv", "w");
     if (file != NULL)
     {
         for (int i = 0; i < STUDENTS; i++)
@@ -27,8 +27,8 @@ int main(void)
     }
     for (int i = 0; i < STUDENTS; i++)
     {
-        free(students[i].name)
-        free(studens[i].dorm)
+        free(students[i].name);
+        free(students[i].dorm);
     }
 }
     
